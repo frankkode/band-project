@@ -316,7 +316,7 @@ h {
   margin-right: auto;
 }
 .card-title {
-    background-color: #8B0000;
+    background-color: #FFF5EE;
     border-radius: 5px;
     margin: 10px;
     text-align: center;
@@ -325,6 +325,7 @@ h {
 
 .card-body{
     border-radius: 0px;
+    background-color: #2F4F4F
 }
 
 
@@ -348,9 +349,13 @@ h {
     text-align: center;
     display: block;
     margin-top:100;
+    margin-left: 0px;
+    margin-right:0px;
 }
 .foot{
-    margin-top: 650px
+    margin-top: 650px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 
@@ -664,3 +669,9 @@ h1 {
 
 
 /* end gallery*/
+.tangerine {
+    font-family: "Tangerine", serif;
+}
+.call{
+    background-color: 	#2F4F4F;
+}
