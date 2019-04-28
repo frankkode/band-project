@@ -1,0 +1,666 @@
+
+body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0px;
+      padding: 0px;
+  background:url(../images/black4.png);
+  background-position: center;
+  background-repeat:repeat;
+  
+  
+      
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){ /* Specific */
+ body{
+      margin-left: 0px;
+      float: left;
+      padding: 0px;
+  }
+}
+
+
+
+
+/*test*/
+
+.image-big {
+  /* Set rules to fill background */
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 400px;
+  height: 100%;
+    margin-bottom: 15px;
+    -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(80%);
+  
+ 
+  
+	
+  /* Set up positioning */
+  
+ 
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  .imge-bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+/* Navbar */
+.navDefault {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    background-color: #4a4a4f;
+}
+
+
+.navbar {
+    margin-bottom: 0px;
+    width: 100%;
+    color: black;
+    background-color:#2C0000;
+    border: 0px;
+    height: 0px;
+    
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+    border-radius: 25px;
+    
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: orange;
+    width: 110px;
+    
+    
+    
+}
+
+.navbar .navbar-nav  {
+    font-weight: bold;
+    color: black;
+    background-color: #2C0000;
+    border-radius: 5px;
+    margin: 12px;
+    text-align: center;
+    overflow-y:visible;
+     z-index: 1;
+    position: relative;
+    height: 100%;
+   
+}
+
+ .nava{
+     color: black;
+     background-color: blue;
+     margin: 15px;
+    
+     
+ }   
+   
+    
+
+
+.navbar .navbar-nav :hover{
+    color: orange;
+    background-color: clear;
+   
+}
+
+button {
+    border: none;
+    background-color: #0997d3;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.dropdownMenu{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    z-index: -1;
+    width: 150px;
+    text-align: center;
+    transform: translateY(-100%);
+    transition: transform .5s ease-in-out;
+}
+
+
+
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+
+.card-body{
+    background-color: #66CDAA;
+      border-radius: 20px;
+}
+.card{
+    margin: 25px;
+  
+}
+
+
+.card-group{
+    margin: 15px;
+}
+
+
+
+/* Buttons. */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 9px;
+    padding-right: 15px;
+    
+  
+}
+
+.btn--red {
+   
+   background-color: #8B008B;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 35px;
+    
+    
+  
+    
+}
+
+.btn{
+    color: white;
+    border-color: white;
+    width: 110px;
+    margin-top: 20px;
+   background-color:orange;
+}
+
+/* signup butoon*/
+
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  #my-content{ display: none; }  /* show it on smaller screen */
+}
+
+
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+   
+
+}
+.uppercase {
+    text-transform: uppercase;
+    font-size: 20px;
+   text-align: center;
+    padding-bottom: 8px;
+  
+     
+}
+.uppercase:hover{
+    
+}
+
+
+
+
+
+
+.row-table {
+    display: table;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+ 
+ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+
+
+.hovertop{
+    display: inline;
+    width: 106px
+}
+
+.hovertop:hover{
+    color: orange;
+    background-color: red;
+}
+h {
+    
+  border-radius: 25px;
+  background: orange;
+  padding: 5px; 
+  width: 120px;
+  height: 40px;
+  margin-top: 40px;
+  text-align: center;
+
+}
+
+
+.jumbotron{
+    background:url(../images/black4.png);
+    margin-top: 15px;
+    width: 100%;
+    height: 460px;
+    
+}
+
+
+
+.card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-title {
+    background-color: #8B0000;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card-body{
+    border-radius: 0px;
+}
+
+
+
+.picture {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 200px;
+    
+}
+
+ 
+
+.footer {
+    background-color: #2C0000;
+    color: #F0FFFF;
+    height: 130px;
+   
+    border-radius: 7px;
+    text-align: center;
+    display: block;
+    margin-top:100;
+}
+.foot{
+    margin-top: 650px
+}
+
+
+.social-links {
+    padding-bottom: 5px;
+}
+
+.social-links  li a i {
+    width: 35px;
+    border-radius: 30px;
+    font-size: 33px;
+    line-height: 77px;
+    text-align: center;
+    color: orange;
+    
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #51D1E5;
+}
+    
+    
+    
+
+
+
+.hero-text {
+ 
+ float:left;
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+.warning{
+    background-color:#D2691E  ;
+    border-radius: 15px;
+    width: 300px;
+    
+}
+.warning:hover{
+    background-color: #BC8F8F;
+}
+.medium{
+    text-align: center;
+   
+    margin-bottom:0px;
+}
+
+
+.modal-body{
+    background-color: lightblue;
+}
+
+
+
+/*full tour world*/
+
+
+#v-1{
+    background:url(../images/black4.png);
+}
+
+.frame{
+    border: 4px solid #ddd;
+  border-radius: 4px;
+ 
+}
+
+.frame:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#gallery{
+    
+}
+
+@media (max-width: 767px) {
+    .column-1,
+    .column-2 {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .column-1 {
+        width: 50%;
+    }
+    .column-2 {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .column-2,
+    .column-1 {
+        width: 33%;
+    }
+}.view {
+   
+    position: relative;
+    float: left;
+    width:  100px;
+  
+   
+   
+   
+}
+.lobster {
+  font-family: "Lobster", Sans-serif;
+}
+
+/*tour*/
+
+
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 12px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: 5px;
+  height: 300px;
+  color: white;
+}
+
+
+
+.europe {
+    margin: 40px
+}
+
+
+ /*video*/  
+    
+
+
+
+
+
+
+
+/*----------JUMBOTRON----------*/
+#landing-view {
+    background-attachment: fixed;
+    background-image: url('../images/monkeescover.png');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+  
+}
+.top {
+    padding-left: 12px;
+    margin-top: 12%;
+}
+h1 {
+    padding-top: 5%;
+    font-size: 5.5em;
+}
+.jumbotron p {
+    font-size: 2em;
+}
+
+.card-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    
+    
+   
+}
+
+
+/*gellery*/
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+/* end gallery*/
