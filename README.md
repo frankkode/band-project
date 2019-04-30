@@ -6,9 +6,9 @@ This is a website for a Music band called The monkees. This website shows: who t
 
 
 ## Demo
-A live demo can be found [here] https://github.com/frankkode/my-first-project-2
+A live demo can be found here: https://github.com/frankkode/my-first-project-2
 
-![Desktop Demo](https://github.com/frankkode/my-first-project-2 "Desktop Demo")
+
 
 
 ## UX
@@ -62,9 +62,12 @@ All content in the "About Me" and "The band " code was written by me. and got so
 All photos were taken from [Pexels](https://www.pexels.com/), a stock image library,google free photos  all photos was uploaded in original format. 
 
 ### Acknowledgements
-Form used are from:( https://www.w3schools.com/html/html_forms.asp ):   some modification was added
+Form used are from:( https://www.w3schools.com/html/html_forms.asp ):   some modification was added.
+
 Ticket modal was taken from:(https://mdbootstrap.com/docs/jquery/modals/forms/):     They were significantly modified to fit the styling, sizing, and color.
-Signup modal was taken from:( https://mdbootstrap.com/docs/jquery/modals/forms/):     They were significantly modified to fit the styling, sizing, and color
+
+Signup modal was taken from:( https://mdbootstrap.com/docs/jquery/modals/forms/):     They were significantly modified to fit the styling, sizing, and .
+
 Motivation and step by step follown are from code institute :(https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/c75714c9636b4cf59120d60acbec6ffd/f851a16813f14b3aae7bd1e6560443cd/?child=first)
 Engen used:google
 
