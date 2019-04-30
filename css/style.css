@@ -144,6 +144,12 @@ background-position: center;
     margin: 15px;
 }
 
+.form-control{
+    width: 15px;
+    text-align: center;
+    margin-right: 20px;
+}
+
 
 
 
@@ -224,6 +230,10 @@ background-position: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid orange;
+  
 }
 .card-title {
     background-color: #FFF5EE;
@@ -235,6 +245,15 @@ background-position: center;
 .card-body{
     border-radius: 0px;
     background-color: #2F4F4F
+}
+
+.wrapper{
+   display: inline-block;
+   text-align: center;
+    margin-bottom: 50px;
+    border-radius: 7px;
+    border: 3px solid 	#800000;
+    
 }
 .picture {
     position: relative;
@@ -309,14 +328,15 @@ background-position: center;
 
 #landing-view {
     background-attachment: fixed;
-    background-image: url('../images/monkeescover.png');
+    background-image: url('../images/dd.png');
+    background-repeat: repeat-x; 
     background-position: bottom;
     background-size: cover;
-    height: 100vh;
+   height: 100vh;
     width: 100vw;
-    margin-bottom: 0px;
-    z-index: 1;
-  
+    z-index: 1; 
+    top:0;
+ 
 }
 .top {
     padding-left: 12px;
@@ -380,4 +400,5 @@ h1 {
 .social-links li a i:hover {
     background: #51D1E5;
 }
+ 
  
