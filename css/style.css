@@ -7,7 +7,7 @@ body {
       font-family: 'Roboto', sans-serif;
       margin: 0px;
       padding: 0px;
-  background:url(../images/black4.png);
+  background:url(../images/blue.png);
   background-position: center;
   background-repeat:repeat;
   }
@@ -82,7 +82,7 @@ background-position: center;
     margin-bottom: 0px;
     width: 100%;
     color: black;
-    background-color:#2C0000;
+    background-color:	#0000FF;
     border: 0px;
     height: 0px;
     }
@@ -102,7 +102,7 @@ background-position: center;
 .navbar .navbar-nav  {
     font-weight: bold;
     color: black;
-    background-color: #2C0000;
+    background-color: 	#0000FF;
     border-radius: 5px;
     margin: 12px;
     text-align: center;
@@ -331,7 +331,7 @@ background-position: center;
     
 }
 .call{
-    background-color: 	#2F4F4F;
+    background-color: #337ab7;
     margin-top: 40px;
 }
 
@@ -379,7 +379,7 @@ h1 {
     
    
 .footer {
-    background-color: #2C0000;
+    background-color: 	#0000FF;
     color: #F0FFFF;
     height: 130px;
    
@@ -487,4 +487,56 @@ only screen and (max-width: 760px),
 .cente{
     text-align: center;
     
+}
+
+/***video***/
+
+.vevo{
+    display: inline-block;
+   text-align: center;
+   
+ padding: 20px;
+  
+}
+
+
+.box{
+    border: 5px solid white;
+    margin-bottom: 40px; 
+    margin-top: 40px;
+    cover: 100%;
+    border-radius: 9px
+}
+.kad{
+    color: white;
+    width: 282px;
+    border: 3px solid #eee;
+}
+
+.kado{
+    background-color: tomato;
+    text-align: center;
+}
+.audi{
+    display: inline-block;
+    margin: 20px
+   ;
+}
+
+/***gallery**/
+
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
+
+/***end gallery**/
+
+
+.join{
+    color: white;
 }
