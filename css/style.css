@@ -1,15 +1,11 @@
         /****** body *****/
-        
-        
-        
-        
 body {
       font-family: 'Roboto', sans-serif;
       margin: 0px;
       padding: 0px;
-  background:url(../images/blue.png);
-  background-position: center;
-  background-repeat:repeat;
+      background-position: center;
+      background-repeat:repeat;
+      background:url(../images/blue3.png);
   }
 @media screen and (min-width: 768px) and (max-width: 1024px){ /* Specific */
  body{
@@ -82,7 +78,7 @@ background-position: center;
     margin-bottom: 0px;
     width: 100%;
     color: black;
-    background-color:	#0000FF;
+    background-color: #B22222;
     border: 0px;
     height: 0px;
     }
@@ -102,7 +98,7 @@ background-position: center;
 .navbar .navbar-nav  {
     font-weight: bold;
     color: black;
-    background-color: 	#0000FF;
+    background-color: #B22222;
     border-radius: 5px;
     margin: 12px;
     text-align: center;
@@ -331,7 +327,7 @@ background-position: center;
     
 }
 .call{
-    background-color: #337ab7;
+    background-color:#5cb85c;
     margin-top: 40px;
 }
 
@@ -379,7 +375,7 @@ h1 {
     
    
 .footer {
-    background-color: 	#0000FF;
+    background-color: 	#B22222;
     color: #F0FFFF;
     height: 130px;
    
