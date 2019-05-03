@@ -429,7 +429,7 @@ position: relative;
 height: 200px;
 overflow: auto;
 }
-.table-wrapper-scroll-y {
+.table-wrapper-scroll-y,th-lg{
 display: block;
 }
 .button{
@@ -479,7 +479,12 @@ only screen and (max-width: 760px),
 		white-space: nowrap;
 	}
 	
-}	
+}
+.table,thead,tbody,th,td,tr { 
+	color: white;
+	background-color: blue;
+	}
+
 
 .cente{
     text-align: center;
@@ -536,7 +541,6 @@ border-radius: 2px; }
 }
 
 /***end gallery**/
-
 
 
 
