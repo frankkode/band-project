@@ -1,3 +1,7 @@
+  
+ 
+
+      
         /****** body *****/
 body {
       font-family: 'Roboto', sans-serif;
@@ -117,7 +121,7 @@ background-position: center;
     }   
     .navbar .navbar-nav :hover{
     color: orange;
-    background-color: clear;
+    
    }
 .dropdownMenu{
     list-style: none;
@@ -152,10 +156,6 @@ background-position: center;
     text-align: center;
     margin-right: 20px;
 }
-
-
-
-
 
 /****** Buttons. ******/
 
@@ -206,7 +206,7 @@ background-position: center;
 }
 .section-heading {
     font-family: "Exo", sans-serif;
-    font-weight: 300px;
+  
     margin-top: 25px;
     margin-bottom: 40px;
 }
@@ -324,8 +324,9 @@ background-position: center;
   
 }
 .europe {
-    margin: 40px;
+    margin-top: 80px;
     text-align: center;
+    color: orange;
   
     
 }
@@ -334,6 +335,8 @@ background-position: center;
     margin-top: 40px;
     border:6px solid #ccc;
     border-radius:8px;
+    width:400px;
+    text-align:center;
 }
 
 
@@ -351,8 +354,19 @@ background-position: center;
     background-size: cover;
     z-index: 1; 
     top:0;
+    text-align: center;
+    color: white;
+    
    
 }
+
+
+/**jumbotron**/
+
+.jumbotron{
+   color: white; 
+}
+
 .top {
     padding-left: 12px;
     margin-top: 12%;
@@ -482,39 +496,51 @@ only screen and (max-width: 760px),
 }
 .table,thead,tbody,th,td,tr { 
 	color: white;
-	background-color: blue;
+	background-color: #66CDAA;
 	}
 
 
 .cente{
     text-align: center;
+    color: orange;
     
 }
 
 /*** video & audio ***/
 
 
-.vevo{
-    
-text-align: center;
-  
-}
 .veva{
     text-align: center;
+   
 }
-
-
+.sub{
+    color: orange;
+}
+.white{
+    color: white;
+}
+.tomato{
+    color: tomato;
+}
+.green{
+    color: green;
+}
 .box{
     border: 5px solid white;
     margin-bottom: 40px; 
     margin-top: 40px;
     border-radius: 9px;
     text-align: center;
+   margin-left: 10px;
+   margin-right: 10px;
+    
+   
 }
 .kad{
     color: white;
     width: 282px;
     border: 3px solid #eee;
+  
 }
 
 .kado{
@@ -523,7 +549,14 @@ text-align: center;
 }
 .audi{
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
+  
+   
+}
+
+.controla{
+
+    width:270px;
 }
 
 /***gallery**/
