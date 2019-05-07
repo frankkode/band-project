@@ -86,11 +86,11 @@ background-position: center;
     }
     .hovertop{
     display: inline;
-    width: 106px
+    
 }
 .navbar .navbar-toggler {
     border: 0;
-    border-radius: 25px;
+   
     }
 .navbar .navbar-brand {
     font-weight: bold;
@@ -327,44 +327,17 @@ background-position: center;
     margin-top: 80px;
     text-align: center;
     color: orange;
-  
-    
-}
-.call{
-    background-color:#5cb85c;
-    margin-top: 40px;
-    border:6px solid #ccc;
-    border-radius:8px;
-    width:400px;
-    text-align:center;
 }
 
 
-
-
-/******** image fixed on jumbtron *******/
-
-
-.landing-view {
-    background-attachment: fixed;
-    background-image: url('../images/dd.png');
-    height: 100vh;
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
-    z-index: 1; 
-    top:0;
-    text-align: center;
-    color: white;
-    
-   
-}
 
 
 /**jumbotron**/
 
 .jumbotron{
-   color: white; 
+   color: white;
+   background-color: red;
+   text-align: center;
 }
 
 .top {
@@ -390,22 +363,14 @@ h1 {
     
    
 .footer {
-    background-color: 	#B22222;
+    background-color: #B22222;
     color: #F0FFFF;
-    height: 130px;
-   
-    border-radius: 7px;
+ 
     text-align: center;
     display: block;
-    margin-top:100px;
-    margin-left: 0px;
-    margin-right:0px;
+    margin-bottom: 0px
 }
-.foot{
-    margin-top: 650px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
+
 
 
 .social-links {
@@ -431,7 +396,10 @@ h1 {
 }
  
  
- 
+ .about{
+   color: orange;
+   text-align:center;
+ }
  
  .cabout{
      margin: 40px;
@@ -527,12 +495,10 @@ only screen and (max-width: 760px),
 }
 .box{
     border: 5px solid white;
-    margin-bottom: 40px; 
-    margin-top: 40px;
+    margin: 40px,40px,10px,10px; 
     border-radius: 9px;
     text-align: center;
-   margin-left: 10px;
-   margin-right: 10px;
+  
     
    
 }
@@ -555,7 +521,7 @@ only screen and (max-width: 760px),
 }
 
 .controla{
-
+    margin-top: 8px;
     width:270px;
 }
 
@@ -569,9 +535,7 @@ max-width: 100%; } }
 
 .carousel-multi-item-2 .card img {
 border-radius: 2px; }
-.join{
-    color: white;
-}
+
 
 /***end gallery**/
 
