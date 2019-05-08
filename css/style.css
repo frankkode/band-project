@@ -14,7 +14,7 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1024px){ /* Specific */
  body{
       margin-left: 0px;
-      float: left;
+     
       padding: 0px;
      
  }
@@ -98,31 +98,24 @@ background-position: center;
     width: 110px;
     }
 .navbar-toggler-icon{
-    width: 60px;
-    color: orange;
-    border-color: orange;
+    width: 50px;
+    color: white;
+    border-color: white;
+    background-color: orange;
 }
 .navbar .navbar-nav  {
     font-weight: bold;
-    color: black;
     background-color: #B22222;
     border-radius: 5px;
-    margin: 12px;
+    margin: 15px;
     text-align: center;
     overflow-y:visible;
      z-index: 1;
     position: relative;
     height: 100%;
    }
-.nava{
-     color: black;
-     background-color: blue;
-     margin: 15px;
-    }   
-    .navbar .navbar-nav :hover{
-    color: orange;
-    
-   }
+
+  
 .dropdownMenu{
     list-style: none;
     margin:0;
@@ -156,6 +149,21 @@ background-position: center;
     text-align: center;
     margin-right: 20px;
 }
+
+/**about us**/
+
+
+ 
+ .about{
+   color: orange;
+   text-align:center;
+ }
+ 
+ .cabout{
+     margin: 40px;
+ }
+ 
+
 
 /****** Buttons. ******/
 
@@ -358,58 +366,11 @@ h1 {
 /* album*/
 
 
-    /******* footer ******/
-    
-    
-   
-.footer {
-    background-color: #B22222;
-    color: #F0FFFF;
- 
-    text-align: center;
-    display: block;
-    margin-bottom: 0px
-}
-
-
-
-.social-links {
-    padding-bottom: 5px;
-}
-
-.social-links  li a i {
-    width: 35px;
-    border-radius: 30px;
-    font-size: 33px;
-    line-height: 77px;
-    text-align: center;
-    color: orange;
-    
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #51D1E5;
-}
- 
- 
- .about{
-   color: orange;
-   text-align:center;
- }
- 
- .cabout{
-     margin: 40px;
- }
- 
  /****tour******/
  .my-custom-scrollbar {
 position: relative;
-height: 200px;
-overflow: auto;
+height: 600px;
+
 }
 .table-wrapper-scroll-y,th-lg{
 display: block;
@@ -495,7 +456,10 @@ only screen and (max-width: 760px),
 }
 .box{
     border: 5px solid white;
-    margin: 40px,40px,10px,10px; 
+    margin-top: 40px; 
+    margin-bottom: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
     border-radius: 9px;
     text-align: center;
   
@@ -524,6 +488,9 @@ only screen and (max-width: 760px),
     margin-top: 8px;
     width:270px;
 }
+.message{
+    margin: 6px;
+}
 
 /***gallery**/
 
@@ -541,3 +508,42 @@ border-radius: 2px; }
 
 
 
+    /******* footer ******/
+    
+    
+   
+.footer {
+    background-color: #B22222;
+    color: #F0FFFF;
+    text-align: center;
+    height: 110px;
+    margin-bottom: 0px;
+    width: 100%;
+  
+    
+}
+
+
+
+.social-links {
+    padding-bottom: 5px;
+}
+
+.social-links  li a i {
+    width: 35px;
+    border-radius: 30px;
+    font-size: 33px;
+    line-height: 77px;
+    text-align: center;
+    color: orange;
+    
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #51D1E5;
+}
+ 
