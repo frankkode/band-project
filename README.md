@@ -6,7 +6,7 @@ This is a website for a Music band called The monkees. This website shows: who t
 
 
 ## Demo
-A live demo can be found here: https://github.com/frankkode/my-first-project-2
+A live demo can be found here: https://frankkode.github.io/my-first-project-2/
 
 
 
